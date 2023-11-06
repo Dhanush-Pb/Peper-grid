@@ -1,0 +1,154 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navigation{
+background-color:#040324;
+display: flex;
+min-height: 60px;
+justify-content: space-between;
+width: 100%;
+position: fixed;
+z-index: 999;
+
+}
+.logo{
+     margin-left:-110px;
+    margin-bottom:20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+.parlelogo{
+    width:130px;
+    height:30px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.navigation .navbar li{
+    display: inline-block;
+    list-style-type: none;
+    color: rgb(202, 201, 211);
+    margin-left: 10px;
+    padding-right: 40px;
+    padding-top: 20px;
+    
+}
+
+.last{
+    width: 100%;
+}.photo{
+
+
+    width: 100%;
+}
+.last{
+    width:100%;
+
+}
+.split{
+height:10%;
+width:50%;
+
+
+overflow-x: hidden;
+
+}
+.gg{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(215, 235, 0);
+    display: flex;
+    position: relative;
+  
+}
+.split-left{
+    left:0;
+    background-color: black;
+    width: 50%;
+}
+.split-right{
+    right:0;
+    background-color: rgb(255, 255, 255);
+width: 50%;
+}
+.split-right p{
+    margin: 120px;
+    line-height: 35px;
+font-weight:600;
+margin-bottom: 150px;
+   font-family: Tahoma;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-weight: normal;
+    position:relative;
+
+    
+}
+.centered img{
+    width: 180px;
+margin-left: 250px;
+margin-top: 110px;
+rotate:20deg;
+
+}
+.centered h1{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 80px;
+    font-family: "EksellDisplayWeb-Small";
+    justify-content: center;
+  margin-top: -350px;
+   font-weight: 100px;
+   width: 390px;
+   margin-inline: 130px;
+   position: relative;
+    z-index: +2;
+  
+}
+ .icon{
+position: absolute;
+bottom: 20px;
+margin-left: 110px;
+
+}
+.footer{
+    display: flex;
+    margin-top: 50px;
+}
+
+.list1{
+    font-family:Tahoma;
+    font-size: 10px;
+    line-height: 17px;
+    margin-left: 120px;
+
+   
+}
+.list2{
+    font-family:Tahoma;
+    font-size: 10px;
+    line-height: 25px;
+    margin-left: 120px;
+    
+}
+.list3{
+    font-family:Tahoma;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 120px;
+}
+.lastimage{
+    display: flex;
+   width: 50px;
+   height: 30px;
+ 
+}
+   

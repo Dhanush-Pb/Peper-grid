@@ -1,0 +1,335 @@
+.anonsment{
+
+    font-family: roboto;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.anonsment:hover{
+    background-color: rgb(48, 48, 48);
+
+}
+.navimage{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    width: 14px;
+    height: 14px;
+    padding-bottom: 0;
+ 
+}
+
+*{
+    margin: 0;
+}
+.anonsment:hover .navimage{
+    width: 17px;
+    transition: 0.5s;
+}
+.King{
+    width: 250px;
+}
+.filter2{
+    width: 120px;
+}
+.navbar1 input[type="checkbox"],
+.navbar1 .hamburger-lines{
+ 
+}
+.navbar1{
+    width: 100%;
+    background: #171717;
+    color: #ffffff;
+    opacity: 1;
+    box-shadow: 0 -3px 3px -3px #4f4f4f;
+    padding: 0.8rem;
+    position: fixed;
+}
+
+.navbar1-container{
+    display: flex;
+    justify-content: left;
+    height: 64px;
+    align-items: center;
+}
+.new{
+    margin-bottom: 0;
+    padding: 0.7rem;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.filter{
+    filter: invert(100%) sepia(2%) saturate(7492%) hue-rotate(26deg) brightness(116%) contrast(90%);
+    position: absolute;
+    right: 8vw;
+}
+.filter2{
+    width: 120px;
+}
+.filter{
+    width: 18px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.userlogin{
+    width: 20px;
+    filter: invert(100%) sepia(2%) saturate(7492%) hue-rotate(26deg) brightness(116%) contrast(90%);
+    position: relative;
+    left: 51vw;
+    top: -7px;
+}
+.logo{
+    order: 1;
+    font-size: 2.3rem;
+    padding-bottom: 10px;
+    padding-left: 130px;
+ 
+}
+.logo1{
+    position: absolute;
+    top: 25px;
+    right: .5vw;
+}
+.victus{
+    position:sticky;
+    top: 0px;
+    margin-bottom: 2rem;
+}
+.menu-items{
+    order: 2;
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+.navbar1-container input[type="checkbox"]{
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+.navbar1-container input[type="checkbox"]:checked ~ .menu-items{
+    transform: translateX(0);
+}
+
+.navbar1-container input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+    transform: rotate(45deg);
+}
+
+.navbar1-container input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+    transform: scaleY(0);
+}
+
+.navbar1-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+    transform: rotate(-45deg);
+}
+.navbar1-container input[type="checkbox"]{
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.navbar1-container .hamburger-lines{
+    /* display: block; */
+    height: 17px;
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar1-container .hamburger-lines .line{
+    /* display: block; */
+    height: 1px;
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+}
+.navbar1 a{
+    color: #e3e3e3;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.navbar1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.navbar1 a:active{
+    text-decoration: underline;
+}
+.hamburger-lines{
+    opacity: 0;
+}
+
+
+
+@media (max-width: 768px){
+   
+} 
+
+.navbar1{
+    width: 100%;
+    background: #010101;
+    color: #ffffff;
+    opacity: 1;
+    box-shadow: 0 -3px 3px -3px #4f4f4f;
+    padding: 0.8rem;
+}
+
+.navbar1-container{
+    display: flex;
+    justify-content: left;
+    height: 64px;
+    align-items: center;
+
+}
+.repo{
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    z-index: 99;
+    opacity: 0;
+   transition: all ease 0.5s;
+   
+    /* opacity: .5; */
+
+}
+.h22{
+    color: #ede5e5;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+@media (max-width: 767px) {
+    .owner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .hamburger-lines{
+        display:block;
+        opacity: 1;
+    }
+    .menu-items{
+        display: none;
+    }
+  }
+  *,
+*::after,
+*::before{
+    box-sizing: border-box;  /*fff*/
+    padding: 0;
+    margin: 0;
+}
+.row{
+    max-width: 1250px;
+}
+
+.dhanush img{
+    width: 100%;
+    margin-top: 10px;
+   }
+   .container{
+    width: 100%;
+    margin: auto;
+   }
+   .butn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+.first-note{
+    font-size: 25px;
+}
+.sec-note{
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.navbar1-container .hamburger-lines .line1{
+    transform-origin: 0% 0%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar1-container .hamburger-lines .line2{
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar1-container .hamburger-lines .line3{
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.foooter p{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.foooter{
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 6vh;
+     height: 100px;
+}
+.insta1{
+    filter: invert(96%) sepia(6%) saturate(125%) hue-rotate(231deg) brightness(117%) contrast(100%);
+
+}
+.footer-ls{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.foooter-dt{
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    opacity: 0.8;
+    margin-right: 0;
+    margin-left: 0;
+}
+.butn{
+
+display: flex;
+}
+.dhanush{
+    padding-top: 4%;
+}
